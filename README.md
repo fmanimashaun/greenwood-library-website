@@ -1,6 +1,6 @@
 # Darey.io | CapStone Project - Git
 
-## Git-CapStone-Project: Enhancing a Community Library Website
+## Enhancing a Community Library Website
 
 **Background Scenario**
 
