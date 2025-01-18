@@ -1,6 +1,6 @@
-# greenwood-library-website
+# Darey.io | CapStone Project - Git
 
-# Git-CapStone-Project: Enhancing a Community Library Website
+## Git-CapStone-Project: Enhancing a Community Library Website
 
 **Background Scenario**
 
@@ -11,7 +11,7 @@ page to feature upcoming community events.
 I will simulate the roles of two contributors: "**Morgan**" and "**Jamie**". Morgan will focus on adding the "Book 
 Reviews" section, while Jamie will update the "Events" page with new community events.
 
-## Objectives
+### Objectives
 
 * Practice cloning a repository and working with branches in Git.
 
@@ -20,13 +20,13 @@ Reviews" section, while Jamie will update the "Events" page with new community e
 * Create pull requests and merge them after resolving any potential conflicts.
 
 
-## Setup
+### Setup
 
 1. Create a Repository on GitHub:
 Name it website-greenwood-library
 Initialize it with a README.md file and clone it to your local machine.
 
-## Tasks
+### Tasks
 
 1. In the main branch, using Visual Studio Code editor ensure there are files for each of the web pages.
 
