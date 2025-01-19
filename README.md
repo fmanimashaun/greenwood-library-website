@@ -236,6 +236,6 @@ git push origin update-events  # Push the branch to GitHub
 
 By running the above `git push` command, I pushed the `update-events` branch to GitHub, where I can create a Pull Request (PR) if required.
 ![terminal output]()
-![Add book reviews PR]()
+![Updated the Events section PR]()
 
 
