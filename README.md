@@ -183,3 +183,59 @@ git push origin add-book-reviews  # Push the new branch to GitHub
 #### 6. Push the `add-book-reviews` branch to GitHub:
 
 By running the above `git push` command, Il pushed the `add-book-reviews` branch to GitHub, where I can create a Pull Request (PR) if required.
+![terminal output]()
+![Add book reviews PR]()
+
+
+#### 7. Create a new branch named `update-events`:
+
+First,I ensure I am on the `main` branch. Then create and switch to the `update-events` branch:
+
+```bash
+git checkout main            # Ensure you're on the main branch
+git pull origin main         # Update your local main branch with the latest changes
+git checkout -b update-events  # Create and switch to the new branch for Jamie
+```
+
+#### 8. Update the `events.html` file:
+
+In the new branch, open or create the `events.html` file and add content that represents updates to the Events section.
+
+##### Updated `events.html` (example content):
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>Upcoming Events</h1>
+    <p>We’re excited to announce our next events:</p>
+    <ul>
+        <li><strong>Web Development Workshop:</strong> January 25, 2025</li>
+        <li><strong>Community Meetup:</strong> February 10, 2025</li>
+        <li><strong>Annual Tech Conference:</strong> March 5, 2025</li>
+    </ul>
+    <p>Stay tuned for more updates!</p>
+</body>
+</html>
+```
+
+#### 9. Stage, commit, and push the changes:
+
+Now that the `events.html` file has been updated, you need to stage, commit, and push the changes to the `update-events` branch.
+
+```bash
+git add events.html          # Stage the updated file
+git commit -m "Updated the Events section"  # Commit the changes with a descriptive message
+git push origin update-events  # Push the branch to GitHub
+```
+#### 6. Push the `update-events` branch to GitHub:
+
+By running the above `git push` command, I pushed the `update-events` branch to GitHub, where I can create a Pull Request (PR) if required.
+![terminal output]()
+![Add book reviews PR]()
+
+
